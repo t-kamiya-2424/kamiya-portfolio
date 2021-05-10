@@ -293,7 +293,7 @@ img {
   }
 }
 
-.skill .skill-item:nth-child(n + 2) {
+.skill .skill-item:nth-child(n + 3) {
   margin-top: 20px;
 }
 
