@@ -1,0 +1,45 @@
+.flow {
+  .flow-list {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include overTab {
+      display: flex;
+      justify-content: center;
+      /*align-items: center;*/
+    }
+  }
+  .flow-item {
+    width: 70%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    @include overTab {
+      width: 20%;
+      margin-top: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  .flow-theme {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .flow-next {
+    display: none;
+    @include overTab {
+      display: inline;
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 70px;
+      margin-left: 20px;
+      margin-right: 20px;
+      text-align: center;
+    }
+  }
+}

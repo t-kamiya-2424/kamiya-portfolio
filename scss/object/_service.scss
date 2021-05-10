@@ -1,0 +1,56 @@
+.service {
+  .service-nav {
+  }
+  .service-list {
+    margin-top: 30px;
+    @include overTab {
+      margin-right: 40px;
+      margin-left: 40px;
+      display: flex;
+    }
+  }
+  .service-item {
+    background-color: #f7f7f7;
+    width: 70%;
+    @include overTab {
+      width: 33.3%;
+    }
+    margin-left: auto;
+    margin-right: auto;
+    &:nth-child(n + 2) {
+      margin-top: 20px;
+      @include overTab {
+        margin-left: 40px;
+        margin-top: 0px;
+      }
+    }
+    display: flex;
+    flex-flow: column-reverse;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  .service-theme {
+    text-align: center;
+    font-size: 32px;
+  }
+  .service-text {
+    margin-top: 20px;
+  }
+  .service-price {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .service-image {
+    /*width: 50%;*/
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .service-annotation {
+    margin-top: 30px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,68 @@
+.works {
+  .works-area {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    @include overTab {
+      flex-flow: row;
+    }
+  }
+  .works-link {
+    position: relative;
+    width: 500px;
+    &:nth-child(n + 2) {
+      margin-top: 20px;
+    }
+    @include overTab {
+      &:nth-child(n + 2) {
+        margin-left: 20px;
+        margin-top: 0px;
+      }
+    }
+    img {
+      vertical-align: middle;
+    }
+    /*background-color: rgba(204, 204, 204, 0.8);
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    padding-top: 150px;*/
+    /*&::after {
+      content: "";
+      background-color: rgba(0, 0, 0, 0.4);
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+    }*/
+  }
+  .works-img {
+    vertical-align: middle;
+  }
+  .works-caption {
+    /*position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;*/
+    content: "";
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    p {
+      color: cl(white);
+      /*position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateY(-50%) translateX(-50%);*/
+      text-align: center;
+      margin-top: 60px;
+      line-height: 40px;
+    }
+  }
+}

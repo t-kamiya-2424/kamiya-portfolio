@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <!--<div class="header-area">-->
+            <div class="header-fixed">
+                <button class="nav-btn" id="nav-btn" type="button" aria-label="メニュー"><span></span><span></span><span></span></button>
+            </div>
+            <div class="header-nav" id="nav">
+                <nav class="nav-wrap">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#" class="scroll-skill">スキルセット</a></li>
+                        <li class="nav-item"><a href="#" class="scroll-service">サービス</a></li>
+                        <li class="nav-item"><a href="#" class="scroll-works">実績</a></li>
+                        <li class="nav-item"><a href="#" class="scroll-flow">制作の流れ</a></li>
+                        <li class="nav-item"><a href="#" class="scroll-contact">お問い合わせ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        <!--</div>-->
+    </header>
+
+    <main>
+        <div class="top">
+            <div class="top-link">
+                <img src="./image/PC.jpeg" alt="" class="top-img">
+                <div class="top-title"><p>ご希望に沿ったサイトを<br>制作・提案いたします</p></div>
+            </div>
+        </div>
+        <div class="skill">
+            <h1 class="cmn-title">スキルセット</h1>
+            <h2 class="cmn-subtitle">skill</h2>
+            <nav class="skill-nav">
+                <ul class="skill-list">
+                    <li class="skill-item">
+                        <div class="skill-text">
+                            <div class="skill-theme">HTML</div>
+                            <p class="skill-p">Level:★★★★★</p>
+                        </div>
+                        <div class="skill-image">
+                            <img src="/image/html5.png" alt="">
+                        </div>
+                    </li>
+                    <li class="skill-item">
+                        <div class="skill-text">
+                            <div class="skill-theme">CSS</div>
+                            <p class="skill-p">Level:★★★★★</p>
+                        </div>
+                        <div class="skill-image">
+                            <img src="/image/css3.png" alt="">
+                        </div>
+                    </li>
+                    <li class="skill-item">
+                        <div class="skill-text">
+                            <div class="skill-theme">JS</div>
+                            <p class="skill-p">Level:★★★★★</p>
+                        </div>
+                        <div class="skill-image">
+                            <img src="/image/js.png" alt="">
+                        </div>
+                    </li>
+                    <li class="skill-item">
+                        <div class="skill-text">
+                            <div class="skill-theme">WordPress</div>
+                            <p class="skill-p">Level:★★★★★</p>
+                        </div>
+                        <div class="skill-image">
+                            <img src="/image/wordpress.png" alt="">
+                        </div>
+                    </li>
+                    <li class="skill-item">
+                        <div class="skill-text">
+                            <div class="skill-theme">PHP</div>
+                            <p class="skill-p">Level:★★★★☆</p>
+                        </div>
+                        <div class="skill-image">
+                            <img src="/image/php.png" alt="">
+                        </div>
+                    </li>
+                    <li class="skill-item">
+                        <div class="skill-text">
+                            <div class="skill-theme">MySQL</div>
+                            <p class="skill-p">Level:★★★★☆</p>
+                        </div>
+                        <div class="skill-image">
+                            <img src="/image/mysql.png" alt="">
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="service">
+            <h1 class="cmn-title">サービス</h1>
+            <h2 class="cmn-subtitle">service</h2>
+            <nav class="service-nav">
+                <ul class="service-list">
+                    <li class="service-item">
+                        <div>
+                            <div class="service-theme">コーディング</div>
+                            <p class="service-text">
+                                レスポンシブ対応も可能です。コードの修正などにも対応します。
+                            </p>
+                            <div class="service-price">
+                                【料金目安】<br>コード修正:10000円〜/1P<br>LP制作：20000円〜/1P
+                            </div>
+                        </div>
+                        <div class="service-image">
+                            <img src="/image/coding.png" alt="">
+                        </div>
+                    </li>
+                    <li class="service-item">
+                        <div>
+                            <div class="service-theme">Webデザイン</div>
+                            <p class="service-text">
+                                ヒアリングにより、ご要望に沿った適切なデザインを作成します。
+                            </p>
+                            <div class="service-price">
+                                【料金目安】<br>LP制作：30000円〜/1P<br>コーポレイトサイト（10P以下）:80000円〜
+                            </div>
+                        </div>
+                        <div class="service-image">
+                            <img src="/image/design.png" alt="">
+                        </div>
+                    </li>
+                    <li class="service-item">
+                        <div>
+                            <div class="service-theme">WordPress</div>
+                            <p class="service-text">
+                                WordPressサイトの構築や既存サイトのWordPressサイト移行に対応しています。コードの修正にも対応します。
+                            </p>
+                            <div class="service-price">
+                                【料金目安】<br>WordPress移行:100000円〜<br>WordPress制作：200000円〜
+                            </div>
+                        </div>
+                        <div class="service-image">
+                            <img src="/image/WordPress-logo.png" alt="">
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="service-annotation">
+                ※正式なお見積もりは、別途ご相談させていただきます。
+            </div>
+        </div>
+        <div class="works">
+            <h1 class="cmn-title">実績</h1>
+            <h2 class="cmn-subtitle">works</h2>
+            <div class="works-area">
+                <a href="https://kyoto-gokurakutei.net/" class="works-link">
+                    <img src="./image/gokurakutei.png" alt="" class="works-img" >
+                    <div class="works-caption">
+                        <p>【タイトル】極楽亭<br>【スキル】HTML/CSS/jQuery/Wordpress<br>【詳細】架空の温泉旅館のサイトです。</p>
+                    </div>
+                </a>
+                <a href="#" class="works-link">
+                    <img src="./image/portfolio.png" alt="" class="works-img">
+                    <div class="works-caption">
+                        <p>【タイトル】ポートフォリオ<br>【スキル】HTML/CSS/jQuery<br>【詳細】私を紹介するサイトです。</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="flow">
+            <h1 class="cmn-title">制作の流れ</h1>
+            <h2 class="cmn-subtitle">flow</h2>
+            <div class="flow-list">
+                <div class="flow-item">
+                    <div class="flow-theme">
+                        STEP1<br>お問い合わせ
+                    </div>
+                    <p>メールよりお問い合わせください。</p>
+                </div>
+                <div class="flow-next">
+                    >
+                </div>
+                <div class="flow-item">
+                    <div class="flow-theme">
+                        STEP2<br>打ち合わせ
+                    </div>
+                    <p>イメージや目的などをヒアリングし、大まかなレイアウトなどを決め、お見積もりを出させていただきます。</p>
+                </div>
+                <div class="flow-next">
+                    >
+                </div>
+                <div class="flow-item">
+                    <div class="flow-theme">
+                        STEP3<br>制作
+                    </div>
+                    <p>ご契約後、認識を合わせながらお客様の目的に合わせた制作を進めさせていただきます。</p>
+                </div>
+                <div class="flow-next">
+                    >
+                </div>
+                <div class="flow-item">
+                    <div class="flow-theme">
+                        STEP4<br>納品・アフターケア
+                    </div>
+                    <p>実装したホームページをご確認いただき、修正などなければ納品となります。納品後の修正も引き続き対応させていただきます。</p>
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <h1 class="cmn-title">お問い合わせ</h1>
+            <h2 class="cmn-subtitle">contact</h2>
+            <p class="contact-text">ご依頼・（ご相談）はメールよりお願い致します。</p>
+            <div class="contact-img">
+                <a href="mailto:t.kamiya.2424@gmail.com" class="contact-mail">
+                    <img src="./image/mail.png" alt="">
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="copyright">
+            <p class="copyright-p">©︎Copyright 2021 Tomoaki Kamiya's Portfolio All Rights Reserved.</p>
+        </div>
+    </footer>
+</html>
